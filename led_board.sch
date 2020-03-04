@@ -1,4 +1,188 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E5FD85C
+P 1500 1500
+F 0 "J1" V 1737 1429 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 1429 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 1500 50  0001 C CNN
+F 3 " ~" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E5FE90E
+P 1500 2000
+F 0 "J2" V 1737 1929 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 1929 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 2000 50  0001 C CNN
+F 3 " ~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5E5FEDDF
+P 1500 2500
+F 0 "J3" V 1737 2429 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 2429 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 2500 50  0001 C CNN
+F 3 " ~" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5E5FF43B
+P 1500 3000
+F 0 "J4" V 1737 2929 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 2929 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 3000 50  0001 C CNN
+F 3 " ~" H 1500 3000 50  0001 C CNN
+	1    1500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5E6002AB
+P 2300 1500
+F 0 "D1" H 2293 1245 50  0000 C CNN
+F 1 "405LED1" H 2293 1336 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2300 1500 50  0001 C CNN
+F 3 "~" H 2300 1500 50  0001 C CNN
+	1    2300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E600D9A
+P 2300 2000
+F 0 "D2" H 2293 1745 50  0000 C CNN
+F 1 "405LED2" H 2293 1836 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2300 2000 50  0001 C CNN
+F 3 "~" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5E601523
+P 2300 2500
+F 0 "D3" H 2293 2245 50  0000 C CNN
+F 1 "375LED1" H 2293 2336 50  0000 C CNN
+F 2 "leds:LED_SMD_Kingbright_405_2012" H 2300 2500 50  0001 C CNN
+F 3 "~" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5E601CAB
+P 2300 3000
+F 0 "D4" H 2293 2745 50  0000 C CNN
+F 1 "375LED2" H 2293 2836 50  0000 C CNN
+F 2 "leds:LED_SMD_Vishay_405_16" H 2300 3000 50  0001 C CNN
+F 3 "~" H 2300 3000 50  0001 C CNN
+	1    2300 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E602C04
+P 2700 1500
+F 0 "R1" V 2504 1500 50  0000 C CNN
+F 1 "R_Small" V 2595 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 1500 50  0001 C CNN
+F 3 "~" H 2700 1500 50  0001 C CNN
+	1    2700 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1700 3000 1700
+Wire Wire Line
+	3000 1700 3000 1500
+Wire Wire Line
+	3000 1500 2800 1500
+Wire Wire Line
+	2600 1500 2450 1500
+Wire Wire Line
+	2150 1500 1700 1500
+$Comp
+L Device:R_Small R2
+U 1 1 5E604076
+P 2700 2000
+F 0 "R2" V 2504 2000 50  0000 C CNN
+F 1 "R_Small" V 2595 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5E604565
+P 2700 2500
+F 0 "R3" V 2504 2500 50  0000 C CNN
+F 1 "R_Small" V 2595 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 2500 50  0001 C CNN
+F 3 "~" H 2700 2500 50  0001 C CNN
+	1    2700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5E6051F3
+P 2700 3000
+F 0 "R4" V 2504 3000 50  0000 C CNN
+F 1 "R_Small" V 2595 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 3000 50  0001 C CNN
+F 3 "~" H 2700 3000 50  0001 C CNN
+	1    2700 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 2200 3000 2200
+Wire Wire Line
+	3000 2200 3000 2000
+Wire Wire Line
+	3000 2000 2800 2000
+Wire Wire Line
+	2600 2000 2450 2000
+Wire Wire Line
+	2150 2000 1700 2000
+Wire Wire Line
+	1700 2500 2150 2500
+Wire Wire Line
+	2450 2500 2600 2500
+Wire Wire Line
+	2800 2500 3000 2500
+Wire Wire Line
+	3000 2500 3000 2700
+Wire Wire Line
+	3000 2700 1500 2700
+Wire Wire Line
+	1700 3000 2150 3000
+Wire Wire Line
+	2450 3000 2600 3000
+Wire Wire Line
+	2800 3000 3000 3000
+Wire Wire Line
+	3000 3000 3000 3200
+Wire Wire Line
+	3000 3200 1500 3200
 $EndSCHEMATC
