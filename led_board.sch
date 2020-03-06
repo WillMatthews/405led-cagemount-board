@@ -186,23 +186,193 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 1500 3200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E6218D4
-P 3850 1950
-F 0 "#PWR?" H 3850 1700 50  0001 C CNN
-F 1 "GND" H 3855 1777 50  0000 C CNN
-F 2 "" H 3850 1950 50  0001 C CNN
-F 3 "" H 3850 1950 50  0001 C CNN
-	1    3850 1950
+P 7100 3250
+F 0 "#PWR0101" H 7100 3000 50  0001 C CNN
+F 1 "GND" H 7105 3077 50  0000 C CNN
+F 2 "" H 7100 3250 50  0001 C CNN
+F 3 "" H 7100 3250 50  0001 C CNN
+	1    7100 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 1950 3850 1750
+	8350 2200 8350 2000
 Wire Wire Line
-	3850 1750 4000 1750
+	8500 2200 8350 2200
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5E61B0AD
+P 3250 1650
+F 0 "H1" H 3350 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 1650 50  0001 C CNN
+F 3 "~" H 3250 1650 50  0001 C CNN
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5E61C87A
+P 4100 1650
+F 0 "H5" H 4200 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 1650 50  0001 C CNN
+F 3 "~" H 4100 1650 50  0001 C CNN
+	1    4100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5E61CDCB
+P 4950 1650
+F 0 "H9" H 5050 1699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 1608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 1650 50  0001 C CNN
+F 3 "~" H 4950 1650 50  0001 C CNN
+	1    4950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E627D57
+P 3250 2100
+F 0 "H2" H 3350 2149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 2058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 2100 50  0001 C CNN
+F 3 "~" H 3250 2100 50  0001 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5E627D5D
+P 4100 2100
+F 0 "H6" H 4200 2149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 2058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 2100 50  0001 C CNN
+F 3 "~" H 4100 2100 50  0001 C CNN
+	1    4100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5E627D63
+P 4950 2100
+F 0 "H10" H 5050 2149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 2058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 2100 50  0001 C CNN
+F 3 "~" H 4950 2100 50  0001 C CNN
+	1    4950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5E628ADF
+P 3250 2600
+F 0 "H3" H 3350 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 2558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 2600 50  0001 C CNN
+F 3 "~" H 3250 2600 50  0001 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5E628AE5
+P 4100 2600
+F 0 "H7" H 4200 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 2558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 2600 50  0001 C CNN
+F 3 "~" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5E628AEB
+P 4950 2600
+F 0 "H11" H 5050 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 2558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 2600 50  0001 C CNN
+F 3 "~" H 4950 2600 50  0001 C CNN
+	1    4950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5E62CA13
+P 3250 3100
+F 0 "H4" H 3350 3149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 3058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 3100 50  0001 C CNN
+F 3 "~" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5E62CA19
+P 4100 3100
+F 0 "H8" H 4200 3149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 3058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 3100 50  0001 C CNN
+F 3 "~" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5E62CA1F
+P 4950 3100
+F 0 "H12" H 5050 3149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 3058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 3100 50  0001 C CNN
+F 3 "~" H 4950 3100 50  0001 C CNN
+	1    4950 3100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4000 1750 4000 1950
+	3250 3200 4100 3200
 Wire Wire Line
-	4000 1950 3850 1950
-Connection ~ 3850 1950
+	7100 3200 7100 3250
+Connection ~ 4100 3200
+Wire Wire Line
+	4100 3200 4950 3200
+Connection ~ 4950 3200
+Wire Wire Line
+	3250 2700 4100 2700
+Wire Wire Line
+	7100 2700 7100 3200
+Connection ~ 4100 2700
+Wire Wire Line
+	4100 2700 4950 2700
+Connection ~ 4950 2700
+Connection ~ 7100 3200
+Wire Wire Line
+	3250 2200 4100 2200
+Wire Wire Line
+	7100 2200 7100 2700
+Connection ~ 4100 2200
+Wire Wire Line
+	4100 2200 4950 2200
+Connection ~ 4950 2200
+Connection ~ 7100 2700
+Wire Wire Line
+	3250 1750 4100 1750
+Wire Wire Line
+	7100 1750 7100 2200
+Connection ~ 4100 1750
+Wire Wire Line
+	4100 1750 4950 1750
+Connection ~ 4950 1750
+Connection ~ 7100 2200
+Wire Wire Line
+	4950 1750 7100 1750
+Wire Wire Line
+	4950 2200 7100 2200
+Wire Wire Line
+	4950 2700 7100 2700
+Wire Wire Line
+	4950 3200 7100 3200
 $EndSCHEMATC
