@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name leds)(type KiCad)(uri ${KIPRJMOD}/components.pretty/leds.pretty)(options "")(descr ""))
+  (lib (name warnings)(type KiCad)(uri ${KIPRJMOD}/components.pretty/warnings.pretty)(options "")(descr ""))
 )

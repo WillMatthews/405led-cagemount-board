@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J1
-U 1 1 5E5FD85C
-P 1500 1500
-F 0 "J1" V 1737 1429 50  0000 C CNN
-F 1 "Conn_Coaxial" V 1646 1429 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 1500 50  0001 C CNN
-F 3 " ~" H 1500 1500 50  0001 C CNN
-	1    1500 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J2
-U 1 1 5E5FE90E
-P 1500 2000
-F 0 "J2" V 1737 1929 50  0000 C CNN
-F 1 "Conn_Coaxial" V 1646 1929 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 2000 50  0001 C CNN
-F 3 " ~" H 1500 2000 50  0001 C CNN
-	1    1500 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5E5FEDDF
 P 1500 2500
@@ -44,7 +22,7 @@ F 1 "Conn_Coaxial" V 1646 2429 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 2500 50  0001 C CNN
 F 3 " ~" H 1500 2500 50  0001 C CNN
 	1    1500 2500
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J4
@@ -55,7 +33,7 @@ F 1 "Conn_Coaxial" V 1646 2929 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 3000 50  0001 C CNN
 F 3 " ~" H 1500 3000 50  0001 C CNN
 	1    1500 3000
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
@@ -199,34 +177,34 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5E61B0AD
-P 3250 1650
-F 0 "H1" H 3350 1699 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3350 1608 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 1650 50  0001 C CNN
-F 3 "~" H 3250 1650 50  0001 C CNN
-	1    3250 1650
+P 3250 1600
+F 0 "H1" H 3350 1649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 1558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 1600 50  0001 C CNN
+F 3 "~" H 3250 1600 50  0001 C CNN
+	1    3250 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5E61C87A
-P 4100 1650
-F 0 "H5" H 4200 1699 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 1608 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 1650 50  0001 C CNN
-F 3 "~" H 4100 1650 50  0001 C CNN
-	1    4100 1650
+P 4100 1600
+F 0 "H5" H 4200 1649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 1558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 1600 50  0001 C CNN
+F 3 "~" H 4100 1600 50  0001 C CNN
+	1    4100 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H9
 U 1 1 5E61CDCB
-P 4950 1650
-F 0 "H9" H 5050 1699 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 1608 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 1650 50  0001 C CNN
-F 3 "~" H 4950 1650 50  0001 C CNN
-	1    4950 1650
+P 4950 1600
+F 0 "H9" H 5050 1649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 1558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 1600 50  0001 C CNN
+F 3 "~" H 4950 1600 50  0001 C CNN
+	1    4950 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -355,16 +333,14 @@ Wire Wire Line
 Connection ~ 4950 2200
 Connection ~ 7100 2700
 Wire Wire Line
-	3250 1750 4100 1750
+	3250 1700 4100 1700
+Connection ~ 4100 1700
 Wire Wire Line
-	7100 1750 7100 2200
-Connection ~ 4100 1750
-Wire Wire Line
-	4100 1750 4950 1750
-Connection ~ 4950 1750
+	4100 1700 4950 1700
+Connection ~ 4950 1700
 Connection ~ 7100 2200
 Wire Wire Line
-	4950 1750 7100 1750
+	4950 1700 7100 1700
 Wire Wire Line
 	4950 2200 7100 2200
 Wire Wire Line
@@ -380,7 +356,7 @@ F 1 "Conn_Coaxial" V 1646 3929 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 4000 50  0001 C CNN
 F 3 " ~" H 1500 4000 50  0001 C CNN
 	1    1500 4000
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J6
@@ -391,7 +367,7 @@ F 1 "Conn_Coaxial" V 1646 4429 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 4500 50  0001 C CNN
 F 3 " ~" H 1500 4500 50  0001 C CNN
 	1    1500 4500
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J7
@@ -402,7 +378,7 @@ F 1 "Conn_Coaxial" V 1646 4929 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 5000 50  0001 C CNN
 F 3 " ~" H 1500 5000 50  0001 C CNN
 	1    1500 5000
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J8
@@ -413,7 +389,7 @@ F 1 "Conn_Coaxial" V 1646 5429 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 5500 50  0001 C CNN
 F 3 " ~" H 1500 5500 50  0001 C CNN
 	1    1500 5500
-	0    -1   -1   0   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED D5
@@ -522,149 +498,136 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H14
 U 1 1 5E64652C
-P 3250 4550
-F 0 "H14" H 3350 4599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3350 4508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 4550 50  0001 C CNN
-F 3 "~" H 3250 4550 50  0001 C CNN
-	1    3250 4550
+P 3250 4600
+F 0 "H14" H 3350 4649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 4558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H18
 U 1 1 5E646532
-P 4100 4550
-F 0 "H18" H 4200 4599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 4508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 4550 50  0001 C CNN
-F 3 "~" H 4100 4550 50  0001 C CNN
-	1    4100 4550
+P 4100 4600
+F 0 "H18" H 4200 4649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 4558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 4600 50  0001 C CNN
+F 3 "~" H 4100 4600 50  0001 C CNN
+	1    4100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H22
 U 1 1 5E646538
-P 4950 4550
-F 0 "H22" H 5050 4599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 4508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 4550 50  0001 C CNN
-F 3 "~" H 4950 4550 50  0001 C CNN
-	1    4950 4550
+P 4950 4600
+F 0 "H22" H 5050 4649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 4558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 4600 50  0001 C CNN
+F 3 "~" H 4950 4600 50  0001 C CNN
+	1    4950 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H15
 U 1 1 5E64653E
-P 3250 5050
-F 0 "H15" H 3350 5099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3350 5008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 5050 50  0001 C CNN
-F 3 "~" H 3250 5050 50  0001 C CNN
-	1    3250 5050
+P 3250 5100
+F 0 "H15" H 3350 5149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 5058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 5100 50  0001 C CNN
+F 3 "~" H 3250 5100 50  0001 C CNN
+	1    3250 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H19
 U 1 1 5E646544
-P 4100 5050
-F 0 "H19" H 4200 5099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 5008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 5050 50  0001 C CNN
-F 3 "~" H 4100 5050 50  0001 C CNN
-	1    4100 5050
+P 4100 5100
+F 0 "H19" H 4200 5149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 5058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 5100 50  0001 C CNN
+F 3 "~" H 4100 5100 50  0001 C CNN
+	1    4100 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H23
 U 1 1 5E64654A
-P 4950 5050
-F 0 "H23" H 5050 5099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 5008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 5050 50  0001 C CNN
-F 3 "~" H 4950 5050 50  0001 C CNN
-	1    4950 5050
+P 4950 5100
+F 0 "H23" H 5050 5149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 5058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 5100 50  0001 C CNN
+F 3 "~" H 4950 5100 50  0001 C CNN
+	1    4950 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H16
 U 1 1 5E646550
-P 3250 5550
-F 0 "H16" H 3350 5599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3350 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 5550 50  0001 C CNN
-F 3 "~" H 3250 5550 50  0001 C CNN
-	1    3250 5550
+P 3250 5600
+F 0 "H16" H 3350 5649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3350 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 3250 5600 50  0001 C CNN
+F 3 "~" H 3250 5600 50  0001 C CNN
+	1    3250 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H20
 U 1 1 5E646556
-P 4100 5550
-F 0 "H20" H 4200 5599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 5550 50  0001 C CNN
-F 3 "~" H 4100 5550 50  0001 C CNN
-	1    4100 5550
+P 4100 5600
+F 0 "H20" H 4200 5649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4100 5600 50  0001 C CNN
+F 3 "~" H 4100 5600 50  0001 C CNN
+	1    4100 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H24
 U 1 1 5E64655C
-P 4950 5550
-F 0 "H24" H 5050 5599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 5550 50  0001 C CNN
-F 3 "~" H 4950 5550 50  0001 C CNN
-	1    4950 5550
+P 4950 5600
+F 0 "H24" H 5050 5649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad_Via" H 4950 5600 50  0001 C CNN
+F 3 "~" H 4950 5600 50  0001 C CNN
+	1    4950 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 5650 4100 5650
+	3250 5700 4100 5700
+Connection ~ 4100 5700
 Wire Wire Line
-	7100 5650 7100 5700
-Connection ~ 4100 5650
+	4100 5700 4950 5700
+Connection ~ 4950 5700
 Wire Wire Line
-	4100 5650 4950 5650
-Connection ~ 4950 5650
+	3250 5200 4100 5200
+Connection ~ 4100 5200
 Wire Wire Line
-	3250 5150 4100 5150
+	4100 5200 4950 5200
+Connection ~ 4950 5200
 Wire Wire Line
-	7100 5150 7100 5650
-Connection ~ 4100 5150
+	3250 4700 4100 4700
+Connection ~ 4100 4700
 Wire Wire Line
-	4100 5150 4950 5150
-Connection ~ 4950 5150
-Connection ~ 7100 5650
-Wire Wire Line
-	3250 4650 4100 4650
-Wire Wire Line
-	7100 4650 7100 5150
-Connection ~ 4100 4650
-Wire Wire Line
-	4100 4650 4950 4650
-Connection ~ 4950 4650
-Connection ~ 7100 5150
+	4100 4700 4950 4700
+Connection ~ 4950 4700
 Wire Wire Line
 	3250 4200 4100 4200
-Wire Wire Line
-	7100 4200 7100 4650
 Connection ~ 4100 4200
 Wire Wire Line
 	4100 4200 4950 4200
 Connection ~ 4950 4200
-Connection ~ 7100 4650
 Wire Wire Line
 	4950 4200 7100 4200
 Wire Wire Line
-	4950 4650 7100 4650
+	4950 4700 7100 4700
 Wire Wire Line
-	4950 5150 7100 5150
+	4950 5200 7100 5200
 Wire Wire Line
-	4950 5650 7100 5650
+	4950 5700 7100 5700
 Wire Wire Line
 	2450 4000 3000 4000
-Wire Wire Line
-	3000 4000 3000 4200
 Wire Wire Line
 	2450 4500 3000 4500
 Wire Wire Line
@@ -697,4 +660,87 @@ Text Notes 1250 6000 0    50   ~ 0
 No Res term
 Text Notes 1250 3450 0    50   ~ 0
 Res Term
+Wire Wire Line
+	3000 4000 3000 4200
+Connection ~ 7100 4700
+Connection ~ 7100 5200
+Connection ~ 7100 5700
+Wire Wire Line
+	7100 5200 7100 5700
+Wire Wire Line
+	7100 4700 7100 5200
+Wire Wire Line
+	7100 4200 7100 4700
+Wire Wire Line
+	7100 1700 7100 2200
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E5FD85C
+P 1500 1500
+F 0 "J1" V 1737 1429 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 1429 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 1500 50  0001 C CNN
+F 3 " ~" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E5FE90E
+P 1500 2000
+F 0 "J2" V 1737 1929 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1646 1929 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 2000 50  0001 C CNN
+F 3 " ~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3000 3200
+Connection ~ 3250 3200
+Wire Wire Line
+	3250 3200 3000 3200
+Connection ~ 3250 2700
+Connection ~ 3000 2700
+Wire Wire Line
+	3000 2700 3250 2700
+Connection ~ 3000 2200
+Connection ~ 3250 2200
+Wire Wire Line
+	3250 2200 3000 2200
+Connection ~ 3250 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3250 1700
+Connection ~ 3000 5700
+Connection ~ 3250 5700
+Wire Wire Line
+	3250 5700 3000 5700
+Connection ~ 3250 5200
+Connection ~ 3000 5200
+Wire Wire Line
+	3000 5200 3250 5200
+Connection ~ 3250 4700
+Connection ~ 3000 4700
+Wire Wire Line
+	3000 4700 3250 4700
+Connection ~ 3250 4200
+Connection ~ 3000 4200
+Wire Wire Line
+	3000 4200 3250 4200
+Text Label 2550 1700 0    50   ~ 0
+sgnd
+Text Label 2550 2200 0    50   ~ 0
+sgnd
+Text Label 2550 2700 0    50   ~ 0
+sgnd
+Text Label 2550 3200 0    50   ~ 0
+sgnd
+Text Label 2550 4200 0    50   ~ 0
+sgnd
+Text Label 2550 4700 0    50   ~ 0
+sgnd
+Text Label 2550 5200 0    50   ~ 0
+sgnd
+Text Label 2550 5700 0    50   ~ 0
+sgnd
 $EndSCHEMATC

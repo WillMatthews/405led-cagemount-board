@@ -1,4 +1,4 @@
-update=Fri 06 Mar 2020 13:52:17 GMT
+update=06/03/2020 16:42:17
 version=1
 last_client=kicad
 [general]
@@ -29,6 +29,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=1.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -238,7 +239,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=RFLine
-Clearance=2
+Clearance=1.5
 TrackWidth=1.51
 ViaDiameter=0.8
 ViaDrill=0.4
